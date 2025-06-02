@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background-color: #502424;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: #e68888;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    nav ul li {
+      display: inline;
+      margin: 0 15px;
+    }
+
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 40px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .about, .projects, .contact {
+      background: #fff;
+      margin-bottom: 20px;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+      margin-bottom: 15px;
+      color: #333;
+    }
+
+    .project {
+      margin-bottom: 15px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #333;
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>My Portfolio</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <p>Hello! I'm a passionate developer eager to create beautiful and functional websites. I enjoy learning new technologies and building exciting projects.</p>
+  </section>
+
+  <section id="projects" class="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>Project 1: Portfolio Website</h3>
+      <p>This website you're seeing right now is one of my projects. It's a simple, responsive portfolio built using HTML and CSS.</p>
+    </div>
+    <div class="project">
+        <h3>Project 1: Hospital management</h3>
+        <p>the hospital management application is bulid in salesforce plateform which provid various features and flow.</p>
+      </div>
+    
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact</h2>
+    <p>Email: bhawneshgautam@example.com</p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/bhawnesh-gautam-88b8b1253?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">bhawnesh gautam</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 BHawnesh gautam. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
